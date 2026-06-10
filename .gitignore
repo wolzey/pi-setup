@@ -1,0 +1,14 @@
+# secrets / machine-local state
+.env
+auth.json
+trust.json
+sessions/
+pi-crash.log
+*.log
+
+# dependency installs / caches
+node_modules/
+git/
+
+# macOS
+.DS_Store

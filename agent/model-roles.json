@@ -1,0 +1,34 @@
+{
+  "roles": {
+    "default": {
+      "provider": "openai-codex",
+      "model": "gpt-5.5",
+      "thinking": "low",
+      "description": "Normal coding work"
+    },
+    "fast": {
+      "provider": "openai-codex",
+      "model": "gpt-5.5",
+      "thinking": "minimal",
+      "description": "Cheaper/faster routine work"
+    },
+    "deep": {
+      "provider": "openai-codex",
+      "model": "gpt-5.5",
+      "thinking": "high",
+      "description": "Hard debugging, architecture, and complex reasoning"
+    },
+    "plan": {
+      "provider": "openai-codex",
+      "model": "gpt-5.5",
+      "thinking": "medium",
+      "description": "Implementation planning and critical clarification"
+    },
+    "commit": {
+      "provider": "openai-codex",
+      "model": "gpt-5.5",
+      "thinking": "minimal",
+      "description": "Commit messages, changelogs, and concise summaries"
+    }
+  }
+}

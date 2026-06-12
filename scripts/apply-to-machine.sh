@@ -17,6 +17,8 @@ rsync -a --delete \
   --exclude='.env' \
   --exclude='auth.json' \
   --exclude='trust.json' \
+  --exclude='memory.jsonl' \
+  --exclude='figma-mcp-oauth.json' \
   --exclude='sessions/' \
   --exclude='pi-crash.log' \
   --exclude='*.log' \

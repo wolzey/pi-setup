@@ -3,6 +3,7 @@
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "defaultThinkingLevel": "low",
+  "editorPaddingX": 1,
   "skills": [
     "!**/.claude/skills/**",
     "!**/.claude/skills"
@@ -10,6 +11,7 @@
   "packages": [
     "npm:pi-web-access",
     "git:github.com/wolzey/aikit",
-    "git:github.com/wolzey/agent-factory"
+    "git:github.com/wolzey/agent-factory",
+    "npm:pi-lsp"
   ]
 }

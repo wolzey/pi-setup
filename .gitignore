@@ -2,6 +2,8 @@
 .env
 auth.json
 trust.json
+memory.jsonl
+figma-mcp-oauth.json
 sessions/
 pi-crash.log
 *.log

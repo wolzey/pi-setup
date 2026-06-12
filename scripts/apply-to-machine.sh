@@ -46,4 +46,16 @@ PY
 )
 fi
 
+if [ -f "$DEST/lsp.json" ]; then
+  if command -v npm >/dev/null 2>&1 && ! command -v typescript-language-server >/dev/null 2>&1; then
+    npm install -g typescript typescript-language-server || true
+  fi
+  if command -v go >/dev/null 2>&1 && ! command -v gopls >/dev/null 2>&1; then
+    go install golang.org/x/tools/gopls@latest || true
+  fi
+  if command -v gem >/dev/null 2>&1 && ! command -v ruby-lsp >/dev/null 2>&1; then
+    gem install ruby-lsp --user-install || true
+  fi
+fi
+
 echo "Pi setup applied to $DEST"

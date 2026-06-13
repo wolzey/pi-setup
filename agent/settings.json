@@ -2,7 +2,7 @@
   "lastChangelogVersion": "0.79.1",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
-  "defaultThinkingLevel": "low",
+  "defaultThinkingLevel": "high",
   "editorPaddingX": 1,
   "skills": [
     "!**/.claude/skills/**",
@@ -12,6 +12,8 @@
     "npm:pi-web-access",
     "git:github.com/wolzey/aikit",
     "git:github.com/wolzey/agent-factory",
-    "npm:pi-lsp"
+    "npm:pi-lsp",
+    "git:github.com/pidoshva/pi-git-diff-panel",
+    "git:github.com/pidoshva/pi-pr-browser"
   ]
 }
